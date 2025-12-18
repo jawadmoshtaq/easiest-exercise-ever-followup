@@ -25,3 +25,6 @@ def task04_divisible_by_7() -> list[int]:
         if i % 7 == 0:
             result.append(i)
     return result
+def task05_pass_fail(score: int) -> str:
+    """Return 'Pass' if score >= 50 else 'Fail'."""
+    return "Pass" if score >= 50 else "Fail"
