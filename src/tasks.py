@@ -18,3 +18,10 @@ def task03_count_until_negative() -> int:
             break
         count += 1
     return count
+def task04_divisible_by_7() -> list[int]:
+    """Return all numbers between 1 and 100 divisible by 7."""
+    result = []
+    for i in range(1, 101):
+        if i % 7 == 0:
+            result.append(i)
+    return result
